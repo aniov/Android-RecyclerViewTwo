@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerViewIte
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // floating button that adds random items from the JSON file
-        floatingActionButton = (FloatingActionButton) findViewById(R.id.recycler_view);
+        floatingActionButton = (FloatingActionButton) findViewById(R.id.fab);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
