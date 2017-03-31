@@ -57,14 +57,14 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerViewIte
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        /*JSONParser jsonParser = new JSONParser(this);
+        JSONParser jsonParser = new JSONParser(this);
 
         final List<RecyclerViewItem> tempList = jsonParser.getJsonObjects();
         for (int i = 0; i < 20; i++) {
             items.add(tempList.get(i));
-        }*/
+        }
 
-       /* recyclerViewAdapter = new RecyclerViewAdapter(items, this);
+        recyclerViewAdapter = new RecyclerViewAdapter(items, this);
 
         // initialising the recyclerView with its adapter and layoutManager
         recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerViewIte
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         // floating button that adds random items from the JSON file
-        floatingActionButton = (FloatingActionButton) findViewById(R.id.floatingButton);
+        floatingActionButton = (FloatingActionButton) findViewById(R.id.recycler_view);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements OnRecyclerViewIte
         quoteTextView = (TextView) findViewById(R.id.text_quote);
         authorNameTextView = (TextView) findViewById(R.id.text_quote_author);
         circleView = findViewById(R.id.view_circle);
-        quotesDetails = findViewById(R.id.layout_quotes_details);*/
+        quotesDetails = findViewById(R.id.layout_quotes_details);
     }
 
     @Override
