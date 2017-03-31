@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="refresh_action">Refresh</string>
+    <string name="android_training">Android Training</string>
+    <string name="march_2017">March 2017</string>
+    <string name="recycler_view_layout_manager">This RecyclerView uses a LinerLayoutLanager with vertical scrolling.</string>
+    <string name="lesson_5">L\n5</string>
+    <string name="rv_adapter"><![CDATA[RV & Adapters]]></string>
+</resources>

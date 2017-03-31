@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/recycler_view_item_bottom_top_margin"
+    android:layout_marginEnd="@dimen/recycler_view_item_side_margin"
+    android:layout_marginRight="@dimen/recycler_view_item_side_margin"
+    android:layout_marginStart="@dimen/recycler_view_item_side_margin"
+    android:layout_marginTop="@dimen/recycler_view_item_bottom_top_margin"
+    android:background="@drawable/item_background_drawable"
+    android:gravity="center_vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/item_text_margin"
+        android:layout_marginRight="@dimen/item_text_margin">
+
+        <TextView
+            android:id="@+id/text_title"
+            style="@style/recycler_view_item_title"
+            android:textColor="@color/dark_blue"
+            tools:text="Here will be the title" />
+
+        <TextView
+            android:id="@+id/text_subtitle"
+            style="@style/recycler_view_item_subtitle"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/text_title"
+            android:layout_marginBottom="@dimen/recycler_view_item_bottom_top_margin"
+            android:layout_marginTop="@dimen/recycler_view_item_bottom_top_margin"
+            android:textSize="@dimen/author_name_text_size"
+            tools:text="Here will be the subtitle" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/item_text_margin"
+        android:layout_marginRight="@dimen/item_text_margin"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:src="@drawable/delete_drawable"
+        android:tint="@color/icon_gray"
+         />
+
+</RelativeLayout>

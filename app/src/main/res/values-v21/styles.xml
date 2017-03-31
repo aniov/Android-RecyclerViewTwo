@@ -1,0 +1,40 @@
+<resources>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style name="recycler_view_item_title">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingStart">@dimen/recycler_view_item_padding</item>
+        <item name="android:paddingEnd">@dimen/recycler_view_item_padding</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="yellow_text">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/yellow_color</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="text_under_yellow_text">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/custom_white</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="recycler_view_item_subtitle" parent="recycler_view_item_title">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
